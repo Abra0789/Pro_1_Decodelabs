@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Brew & Bean — visit us, call, or send a message.">
+  <title>Contact Us — Brew &amp; Bean</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ===== Header Section ===== -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="index.html" class="site-header__logo">Brew &amp; Bean</a>
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+          <li class="nav__item nav__item--has-dropdown">
+            <a href="menu.html" class="nav__link">Menu</a>
+            <ul class="nav__dropdown">
+              <li><a href="menu.html#cappuccino" class="nav__dropdown-link">Cappuccino</a></li>
+              <li><a href="menu.html#cold-brew" class="nav__dropdown-link">Cold Brew</a></li>
+              <li><a href="menu.html#latte" class="nav__dropdown-link">Latte</a></li>
+              <li><a href="menu.html#croissant" class="nav__dropdown-link">Croissant</a></li>
+              <li><a href="menu.html#blueberry-muffin" class="nav__dropdown-link">Blueberry Muffin</a></li>
+              <li><a href="menu.html#chocolate-chip-cookie" class="nav__dropdown-link">Chocolate Chip Cookie</a></li>
+            </ul>
+          </li>
+          <li class="nav__item"><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== Page Intro Section ===== -->
+    <section class="page-intro container">
+      <h1>Contact Us</h1>
+      <p class="page-intro__text">Questions, catering requests, or just want to say hi? Reach out below.</p>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section class="contact container">
+      <div class="contact__info">
+        <h2>Find us</h2>
+        <p>123 Coffee Lane<br>Your City</p>
+        <p>Open Daily: 8 AM – 9 PM</p>
+        <p><a href="tel:+8801234567890" class="contact__link">+880 1234-567890</a></p>
+        <p><a href="mailto:hello@brewandbean.com" class="contact__link">hello@brewandbean.com</a></p>
+        <div class="contact__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60707585.99297654!2d55.59677!3d21.7687636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131006f4518cd%3A0x91a84e5994378ec4!2sBrew%20%26%20Bean!5e0!3m2!1sen!2sbd!4v1788936649784!5m2!1sen!2sbd"
+            loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+            title="Map showing Brew and Bean's location"></iframe>
+        </div>
+      </div>
+
+      <form class="contact-form" action="#" method="post">
+        <h2>Send a message</h2>
+
+        <div class="contact-form__group">
+          <label for="name" class="contact-form__label">Name</label>
+          <input type="text" id="name" name="name" class="contact-form__input" required>
+        </div>
+
+        <div class="contact-form__group">
+          <label for="email" class="contact-form__label">Email</label>
+          <input type="email" id="email" name="email" class="contact-form__input" required>
+        </div>
+
+        <div class="contact-form__group">
+          <label for="message" class="contact-form__label">Message</label>
+          <textarea id="message" name="message" class="contact-form__textarea" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="button button--outline">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer Section ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <div class="site-footer__block">
+          <h2 class="site-footer__heading">Visit Us</h2>
+          <p>123 Coffee Lane, Your City</p>
+          <p>Open Daily: 8 AM – 9 PM</p>
+        </div>
+        <div class="site-footer__block">
+          <h2 class="site-footer__heading">Get in Touch</h2>
+          <p><a href="tel:+8801234567890" class="site-footer__link">+880 1234-567890</a></p>
+          <p><a href="mailto:hello@brewandbean.com" class="site-footer__link">hello@brewandbean.com</a></p>
+        </div>
+        <div class="site-footer__block">
+          <h2 class="site-footer__heading">Explore</h2>
+          <p><a href="index.html" class="site-footer__link">Home</a></p>
+          <p><a href="about.html" class="site-footer__link">About</a></p>
+          <p><a href="menu.html" class="site-footer__link">Menu</a></p>
+          <p><a href="contact.html" class="site-footer__link">Contact</a></p>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p class="site-footer__brand">Brew &amp; Bean</p>
+        <p class="site-footer__copyright">&copy; 2026 Brew &amp; Bean. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
